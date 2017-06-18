@@ -1,6 +1,6 @@
 function guardarDatos() {
 	localStorage.nombre = document.getElementById("nombre").value;
-	localStorage.nombre = document.getElementById("password").value;	
+	localStorage.password = document.getElementById("password").value;	
 }
 
 function recuperarDatos() {
